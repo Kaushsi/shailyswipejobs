@@ -31,9 +31,8 @@ public class JobMatchingController {
 
 	@RequestMapping("/")
     public String index() {
-		workerRepository.findByWorkerById("1");
 		
-        return "Greetings from Spring Boot!";
+        return "Swipejob coding exercise by Shaily.";
     }
 	
     @RequestMapping(value = "/matches/{workerId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
