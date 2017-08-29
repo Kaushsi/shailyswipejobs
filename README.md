@@ -1,7 +1,7 @@
 Instructions to run:
 
-java -jar -Dserver.port=8090 worker-job-matching-API-0.1.0.jar
-http://localhost:8090//matches/{workerId}
+java -jar -Dserver.port=8090 com.swipe.jobs-0.0.1-SNAPSHOT.jar
+http://localhost:8090/matches/{workerId}
 
 {workerId} is the guid of the worker.
 
